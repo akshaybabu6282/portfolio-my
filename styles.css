@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.list{
+    list-style-type: none;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: "Sedan", serif;
+    font-weight: bold;
+}
+.link:hover{
+    color: green;
+}
+.home-bg-black{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.529);
+}
+.home-bg{
+    background-image: url(./media/image\ of\ mine.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+}
+.home-me h1{
+    color: white;
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+}
+.home-me p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.download{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 250px;
+    text-decoration: none;
+}
+.download:hover{
+    background-color: green;
+    color: white;
+}
+.img-of-mine{
+    padding-top: 248px;
+}
+
+
+.about-cls h1{
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.about-cls h5{
+    color: orange;
+    margin-bottom: 15px;
+}
+.about-text p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+.skills h1{
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.progress{
+    width: 95%;
+}
+.html h4{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.html p{
+    margin-left: 1320px;
+    margin-top: 25px;
+}
+.css h4{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.css p{
+    margin-left: 1340px;
+    margin-top: 25px; 
+}
+.bootstrap h4{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.bootstrap p{
+    margin-left: 1260px;
+    margin-top: 25px;
+}
+.js h4{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.js p{
+    margin-left: 1260px;
+    margin-top: 25px;
+}
+
+
+
+.project{
+    background-color: rgba(0, 0, 0, 0.784);
+    width: 100%;
+}
+.project h1{
+    color: white;
+    text-align: center;
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.restaurant{
+    margin-left: 250px;
+}
+
+
+
+.contact{
+    text-align: center;
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.contact-outer h5{
+    color: green;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-outer ul{
+    list-style-type: none;
+    margin-left: 590px;
+}
+.contact-outer i{
+    color: black;
+    font-size: 35px;
+    margin-right: 30px;
+}
+
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+i:hover{
+    animation: icon 1s infinite;
+}
+@keyframes icon{
+    0% {
+         transform: translateX(0);
+         color: green; 
+    }
+    25% {
+         transform: translateX(-5px); 
+         color: green; 
+
+    }
+    50% { 
+        transform: translateX(5px); 
+        color: green; 
+
+    }
+    75% { 
+        transform: translateX(-3px); 
+        color: green; 
+
+    }
+    100% { 
+        transform: translateX(3px); 
+        color: green; 
+
+    }
+}
